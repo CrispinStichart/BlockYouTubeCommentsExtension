@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Comment Blocker",
+  "description": "YouTube comments suck, so block them",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["content_script.js"],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ]
+}
